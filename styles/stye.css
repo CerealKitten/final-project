@@ -1,4 +1,13 @@
+* {
+    margin: 0;
+}
+
 nav {
     border-bottom: solid black;
     width: 50vw;
+}
+
+a {
+    text-decoration: none;
+    color: #353535;
 }
