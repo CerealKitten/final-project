@@ -1,13 +1,81 @@
 * {
     margin: 0;
+    font-family: sans-serif;
+}
+
+.carded {
+    display: flex;
+    height: 50vh;
+}
+
+.double {
+    column-count: 2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 -20vh;
+}
+
+img {
+    max-height: 100%;
 }
 
 nav {
-    border-bottom: solid black;
+    border-bottom: solid black .5px;
     width: 50vw;
 }
 
 a {
     text-decoration: none;
     color: #353535;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+    font-family: 'BodoniSvtyTwoITCTT-Book', sans-serif;
+}
+
+h1 {
+    font-size: 5em;
+    width: 10ch;
+}
+
+h2 {
+    font-size: 2.8em;
+}
+
+.a {
+    display: flex;
+}
+
+div {
+    column-count: 3;
+}
+
+section {
+    width: 72.5vh;
+}
+
+#1st-title {
+    border-left: black solid 1.125px;
+}
+
+.lower {
+    margin: 0 0 0 -100px;
+    max-height: 125px;
+}
+
+.imgLeft {
+    margin: 0 -200px 0 0;
+}
+
+.imgRight {
+    margin: 0 0 -200px 0;
+}
+
+footer {
+    display: flex;
 }
