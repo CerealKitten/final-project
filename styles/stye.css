@@ -3,11 +3,18 @@
     font-family: 'BodoniSvtyTwoITCTT-Book', serif;
     font-weight: lighter;
     text-decoration: none;
-    color: #677;
+    color: rgb(113, 119, 119);
+}
+
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100vw;
 }
 
 p {
-    font-size: 3vh;
+    font-size: 4vh;
 }
 
 img {
@@ -26,9 +33,10 @@ a {
 }
 
 nav {
+    align-self: flex-start;
     width: 50vw;
     border-bottom: black solid .5px;
-    margin: 10vh 0 12vh 8vw;
+    margin: 14vh 0 12vh 8vw;
 }
 
 #topnav a {
@@ -40,7 +48,7 @@ nav {
 }
 
 .a {
-    height: 100vh;
+    height: 95vh;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(2, 1fr);
 }
@@ -50,20 +58,23 @@ nav {
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 3;
-    margin-left: -40vw;
+    margin-left: -73.75%;
 }
 
-#heada {
+h1 {
     font-size: 25vh;
     width: 40vw;
     color: red;
+    line-height: .7;
+}
+
+#heada {
     grid-column-start: 6;
     grid-column-end: 11;
     grid-row-start: 1;
     grid-row-end: 2;
     margin-left: -7vw;
     margin-top: 5.5vh;
-    line-height: .7;
 }
 
 #pa {
@@ -72,4 +83,178 @@ nav {
     grid-row-start: 2;
     grid-row-end: 3;
     margin-left: -7vw;
+}
+
+section {
+    margin-bottom: 10vh;
+}
+
+.b {
+    height: 76vh;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+h2 {
+    font-size: 12vh;
+    color: red;
+}
+
+#pb {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    columns: 2;
+    margin-top: 5vh;
+}
+
+#headb {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.c {
+    height: 95vh;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#headc {
+    font-size: 21vh;
+    grid-column-start: 2;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    margin-left: 1.5vw; 
+}
+
+#bimg {
+    grid-column-start: 4;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#butb {
+    display: flex;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    background-color: #8bb;
+    border-radius: 3px;
+    color: white;
+    height: 10vh;
+    width: 17vw;
+    align-content: center;
+    justify-content: center;
+    padding-top: -30%;
+    margin-top: -10vh;
+}
+
+.col2 {
+    height: 80vh;
+    column-count: 2;
+    column-width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.d {
+    width: 80vw;
+}
+
+.colelement {
+    margin-top: 3vh;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 8vh;
+    color: red;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+}
+
+.e {
+    width: 100vw;
+    height: 110vh;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.heade {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.subheade {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.tranny {
+    background-color: #dff;
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    margin-top: -5px;
+    margin-bottom: -50px;
+    opacity: .4;
+}
+
+.eimg {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 9;
+    margin-left: -12vw;
+    margin-top: -5vh;
+}
+
+.col1 {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: left;
+    margin-left: 3vw;
+    width: 33.5vw;
+    justify-content: space-evenly
+}
+
+.col1b {
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: left;
+    justify-content: space-evenly;
+    margin-left: 3vw;
+    width: 37vw;
+}
+
+.f {
+    width: 100vw;
+    height: 110vh;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.fimg {
+    background-image: image(assets/Moose.jpg)
+    grid-column-start: 6;
+    grid-column-end: 11;
+    grid-row-start: 3;
+    grid-row-end: 8;
 }
