@@ -54,11 +54,13 @@ nav {
 }
 
 #headimg {
+    background-image: url(https://raw.githubusercontent.com/CerealKitten/final-project/master/assets/Moose.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     grid-column-start: 1;
     grid-column-end: 6;
     grid-row-start: 1;
     grid-row-end: 3;
-    margin-left: -73.75%;
 }
 
 h1 {
@@ -73,7 +75,7 @@ h1 {
     grid-column-end: 11;
     grid-row-start: 1;
     grid-row-end: 2;
-    margin-left: -7vw;
+    margin-left:-5vw;
     margin-top: 5.5vh;
 }
 
@@ -82,7 +84,7 @@ h1 {
     grid-column-end: 10;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-left: -7vw;
+    margin-left: -5vw;
 }
 
 section {
@@ -90,7 +92,7 @@ section {
 }
 
 .b {
-    height: 76vh;
+    height: 79vh;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(3, 1fr);
 }
@@ -116,6 +118,7 @@ h2 {
 
 .c {
     height: 95vh;
+    width: 100vw;
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(5, 1fr);
 }
@@ -129,9 +132,12 @@ h2 {
     margin-left: 1.5vw; 
 }
 
-#bimg {
+#cimg {
+    background-image: url(https://raw.githubusercontent.com/CerealKitten/final-project/master/assets/Moose.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     grid-column-start: 4;
-    grid-column-end: 11;
+    grid-column-end: 12;
     grid-row-start: 1;
     grid-row-end: 6;
 }
@@ -247,14 +253,23 @@ h3 {
 .f {
     width: 100vw;
     height: 110vh;
-    grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-columns: repeat(9,1fr);
+    grid-template-rows: repeat(7, 1fr);
 }
 
 .fimg {
-    background-image: image(assets/Moose.jpg)
-    grid-column-start: 6;
-    grid-column-end: 11;
-    grid-row-start: 3;
-    grid-row-end: 8;
+    background-image: url(https://raw.githubusercontent.com/CerealKitten/final-project/master/assets/Moose.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column-start: 4;
+    grid-column-end: 10;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+#headf {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
 }
