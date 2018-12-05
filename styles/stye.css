@@ -3,7 +3,7 @@
     font-family: 'BodoniSvtyTwoITCTT-Book', serif;
     font-weight: lighter;
     text-decoration: none;
-    color: rgb(113, 119, 119);
+    color: #6c737b;
 }
 
 body{
@@ -66,8 +66,8 @@ nav {
 h1 {
     font-size: 25vh;
     width: 40vw;
-    color: red;
-    line-height: .7;
+    color: #e34f61;
+    line-height: .8;
 }
 
 #heada {
@@ -99,7 +99,7 @@ section {
 
 h2 {
     font-size: 12vh;
-    color: red;
+    color: #e34f61;
 }
 
 #pb {
@@ -129,7 +129,7 @@ h2 {
     grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 4;
-    margin-left: 1.5vw; 
+    margin-left: 1.5vw;
 }
 
 #cimg {
@@ -142,20 +142,19 @@ h2 {
     grid-row-end: 6;
 }
 
-#butb {
-    display: flex;
-    grid-column-start: 2;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    background-color: #8bb;
+.button {
+    justify-self: center;
+    background-color: #a0b1b6;
     border-radius: 3px;
     color: white;
-    height: 10vh;
-    width: 17vw;
-    align-content: center;
-    justify-content: center;
-    padding-top: -30%;
-    margin-top: -10vh;
+    font-size: 3vh;
+    width: 10vw;
+    padding: 3vh;
+}
+
+#butc {
+    grid-column-start: 2;
+    grid-row-start: 4;
 }
 
 .col2 {
@@ -164,6 +163,7 @@ h2 {
     column-width: 100vw;
     display: flex;
     flex-flow: column wrap;
+    line-height: 4.5vh;
 }
 
 .d {
@@ -178,7 +178,7 @@ h3 {
     font-family: sans-serif;
     font-weight: lighter;
     font-size: 8vh;
-    color: red;
+    color: #e34f61;
     margin-top: 1.5vh;
     margin-bottom: 2vh;
 }
@@ -212,7 +212,7 @@ h3 {
     grid-row-end: 8;
     margin-top: -5px;
     margin-bottom: -50px;
-    opacity: .4;
+    opacity: .5;
 }
 
 .eimg {
@@ -234,7 +234,8 @@ h3 {
     align-content: left;
     margin-left: 3vw;
     width: 33.5vw;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    line-height: 4.5vh;
 }
 
 .col1b {
@@ -248,6 +249,7 @@ h3 {
     justify-content: space-evenly;
     margin-left: 3vw;
     width: 37vw;
+    line-height: 4.5vh;
 }
 
 .f {
@@ -272,4 +274,195 @@ h3 {
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
+}
+
+#butf {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    width: 10vw;
+    margin-left: -7.5vw;
+}
+
+.pf {
+    margin-top: 1em;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+
+.col2b {
+    height: 140vh;
+    line-height: 4.5vh;
+    column-count: 2;
+    column-width: 100vw;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.g {
+    height: 95vh;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+#gimg {
+    background-image: url(https://raw.githubusercontent.com/CerealKitten/final-project/master/assets/Moose.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    grid-column-start: 4;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#headg {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.profile{
+    max-height: 150vh;
+}
+
+.h {
+    height: 150vh;
+    width: 100vw;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.profleft{
+    grid-column-start: 2;
+    grid-column-end: 11;
+    grid-row-start: 1;
+    grid-row-end: 8;
+}
+
+.right {
+    grid-column-start: 9;
+    grid-column-end: 19;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.pright {
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    margin-top: 1vh;
+    margin-left: 4vw;
+    line-height: 5vh
+}
+
+.namright {
+    grid-column-start: 9;
+    grid-column-end: 17;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    margin-top: 8vh;
+    margin-left: 4vw;
+}
+
+br {
+    font-size: 7vh;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.i {
+    height: 150vh;
+    width: 100vw;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(7, 1fr);
+}
+
+.profright {
+    grid-column-start: 9;
+    grid-column-end: 19;
+    grid-row-start: 1;
+    grid-row-end: 8;
+    justify-content: right;
+}
+
+.left{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 7;
+}
+
+.pleft {
+    grid-column-start: 2;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 7;
+    margin-top: 1vh;
+    margin-left: 3vw;
+    line-height: 5vh;
+}
+
+.namleft {
+    grid-column-start: 2;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    margin-top: 8vh;
+    margin-left: 3vw;
+}
+
+.extra {
+    grid-row-start: 4;
+    margin-top: -5vh;
+}
+
+footer {
+    background-color: #a0b1b6;
+    height: 37vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin-left: 10vw;
+    max-height: 23vh;
+    opacity: .5;
+}
+
+#endnav {
+    margin-right: 10vw;
+    width: 10vw;
+    height: 27vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between
+}
+
+#pend {
+    display: flex;
+    justify-content: space-between
+}
+
+.social {
+    height: 5vh;
+}
+
+.endnavelement {
+    margin: 0;
+    color: white;
+    font-size: 2.5vh;
+    opacity: .9;
 }
