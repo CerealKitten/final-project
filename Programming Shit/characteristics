@@ -1,0 +1,141 @@
+types of animals:
+    land - reptile/bird/mammal/insect:
+        head - size/shape:
+            nose:
+                nostrils:
+                    flare
+                    size
+                    style
+                tip:
+                    orientation
+                    length
+                    curvature
+                    roundness
+                bridge:
+                    width
+                    length
+                    depth
+            eyes:
+                iris
+                    slit
+                    cross
+                    x
+                    circle
+                    triangle
+                    line
+                    square
+                    size
+                shape:
+                    percentage - slanted vs rounded
+                size:
+                    percentage
+            mouth:
+                shape:
+                    slit
+                    cross
+                    rounded
+                lips:
+                    amount
+                    size
+                    width
+                    orientation
+            teeth:
+                type:
+                    carnivore
+                    herbivore
+                    omnivore
+                tooth:
+                    amount
+                    size
+            tongue:
+                type:
+                    split
+                    second mouth
+                    single
+                    layered
+                size:
+                    length
+                    width
+                
+            ears:
+                type:
+                    pointed
+                    rounded
+                    nubs
+                    entenae
+                size:
+                    length
+                    width
+            skin:
+                type:
+                    reptile
+                    mammal
+                    avian
+                    insectoid
+        legs:
+            knees
+            feet
+            toes
+            paws
+            buttock
+        scales/fur/skin/feathers:
+            length
+            type
+            texture 
+            density
+    sea:
+        head:
+            nose
+            eyes
+            face fins
+            teeth
+            tongue
+            gills
+        fins:
+            size 
+            flare
+            width
+            position
+        tail:
+            orientation
+            size
+            flare
+        gills:
+            size
+            flare
+            protrusion
+            width
+        scaled/skin:
+            type
+            texture
+            density
+            length
+    air:
+        head:
+            eyes
+            nose
+            mouth
+            teeth
+            tongue
+        wings:
+            size
+            type
+        tail:
+            flare
+            size
+        legs:
+            knees
+            feet
+            toes
+            paws
+        feather/fur/skin:
+            pattern
+            length
+            texture
+            density 
+
+
+these are for the v3 build
+v1 completely random
+v2 simple directions
+v3 fully defined
